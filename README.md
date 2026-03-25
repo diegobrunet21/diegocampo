@@ -1,30 +1,39 @@
-# diegocampo
-📌 Diego Campo
-20 y/o Founder building RBT Connect — the unified AI + Compliance ecosystem for RBTs, BCBAs, parents, and agencies.
-On a mission to build and sell a company for $100M by 25.
+**Welcome to your Base44 project** 
 
-🚀 Building Right Now
-- RBT Connect Chrome Extension (MVP)
-- HIPAA Translation Proxy
-- Compliance Dashboard
-- RBT Marketplace
-- AR AutoDoc Billing (patent pending)
+**About**
 
-🧭 Roadmap Timeline
-- Week 1: Extension foundation
-- Week 2: Dashboard integration
-- Month 1: Beta launch
-- Month 3: Public launch & Stripe billing
-- Year 1: $250K ARR target
+View and Edit  your app on [Base44.com](http://Base44.com) 
 
-🤝 Looking for a Co-Founder
-I’m looking for a long-term technical partner interested in:
-- AI
-- Chrome Extensions
-- HIPAA/FHIR
-- Marketplace systems
-- Healthcare automation
+This project contains everything you need to run your app locally.
 
-📬 Contact
-Email: Diegobrunet21@gmail.com
-Instagram: Diego._campo_
+**Edit the code in your local development environment**
+
+Any change pushed to the repo will also be reflected in the Base44 Builder.
+
+**Prerequisites:** 
+
+1. Clone the repository using the project's Git URL 
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Create an `.env.local` file and set the right environment variables
+
+```
+VITE_BASE44_APP_ID=your_app_id
+VITE_BASE44_APP_BASE_URL=your_backend_url
+
+e.g.
+VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
+VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
+```
+
+Run the app: `npm run dev`
+
+**Publish your changes**
+
+Open [Base44.com](http://Base44.com) and click on Publish.
+
+**Docs & Support**
+
+Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+
+Support: [https://app.base44.com/support](https://app.base44.com/support)
